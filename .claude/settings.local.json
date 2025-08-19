@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(for i in {1..5})",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(npx supabase functions deploy:*)",
+      "Bash(for i in {1..4})",
+      "Bash(for i in {1..3})",
+      "Bash(do echo \"=== Batch $i ===\")",
+      "Bash(cp:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
